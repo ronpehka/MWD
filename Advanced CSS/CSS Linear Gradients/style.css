@@ -1,0 +1,20 @@
+.one{
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(yellow,black);
+}
+.two{
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(to right,yellow,black);
+}
+.three{
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(to bottom right,yellow,black);
+}
+.four{
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(50deg,yellow,black);
+}

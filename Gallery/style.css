@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+section img {
+    float: left;
+    width: 25%;
+    padding: 2px;
+}
+footer{
+    clear: both;
+    font-size: 1.5em;
+    background-color: #000;
+    color: aliceblue;
+    height: 400px;
+}
+header{
+    background-color: black;
+    font-size: 3em;
+    text-align: center;
+    text-transform: capitalize;
+    color: aliceblue;
+}

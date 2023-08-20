@@ -1,0 +1,32 @@
+/* For comments */
+.red{
+    background-image: url("websiteplanet-dummy-540X400-2.png");
+    height: 100px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-position: center;
+    background-attachment:scroll;
+}
+.green{
+    color: lime;
+    background: lightpink;
+}
+.blue{
+    color: blue;
+    height: 400px;
+    background-image: url(websiteplanet-dummy-540X400.png) ;
+
+}
+h1{
+    height: inherit;
+    width: 400px;
+    background-color: aqua;
+}
+.test{
+    background-color: blue;
+    width: 500px;
+}
+.test2 {
+    background: rgb(17, 255, 0);
+    max-width: 500px;
+}

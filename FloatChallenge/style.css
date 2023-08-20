@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    background-color: aliceblue;
+    margin: 5px;
+   padding: 1px;
+}
+nav ul li{
+    width: 200px;
+   list-style: none;
+   display: inline-block;
+   text-align: center;
+   background-color: aliceblue;
+   border: 3px solid white;
+}
+li:hover{
+    background-color: white;
+}
+li{
+    margin: 5px;
+    padding: 10px;
+    
+}
+li a {
+    color: black;
+    text-decoration: none;
+}
+.test1 img{
+    float: right;
+    padding: 10px;
+}
+.test1{
+    width: 100%;
+    float: left;
+    background-color: beige;
+    font-size: 18px;
+    border: 4px dashed brown;
+    padding: 10px;
+    margin: 1px;
+}
+.test2{
+    float: left;
+    width: 35%;
+    padding: 1px;
+    border: 1px solid black;
+}
+.test2 img{
+    float: right;
+    padding: 1px;
+    margin: 5px;
+    width: 180px;
+    height: 120px;
+}
+.test4{
+    width: 35%;
+    float: left;
+    border: 1px solid black;
+    padding: 1px;
+    font-size: 14px;
+}
+.test4 img{
+    width: 100px;
+}
+.test5{
+    float: right;
+    width: 30%;
+    padding: 1px;
+    border: 5px solid blue;
+
+}
+.test5 img{
+    width: 100px;
+    float: right;
+}
+.test6{
+    clear: both;
+    width: 100%;
+    font-size: 30px;
+    background-color: aqua;
+   margin-top: 1px;
+   padding: 1px;
+   text-align: center;
+    
+}
+
