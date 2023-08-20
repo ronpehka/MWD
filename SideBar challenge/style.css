@@ -1,0 +1,54 @@
+nav ul li{
+    display: inline-block;
+    width: 200px;
+}
+nav{
+    background-color: darkgray;
+    padding: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    background-color:darkgray;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    border: 3px solid white;
+    
+    
+}
+li:hover{
+    background-color: aliceblue
+}
+li a {
+    color: brown;
+    text-decoration: none;
+}
+.test1 {
+    background-color:rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 50px;
+}
+.test2 {
+    width: 500px;
+    background-color:rgba(0,0,255,0.5);
+    position: fixed;
+    left: 50px;
+    z-index: 2;
+}
+.test3 {
+    width: 500px;
+    background-color: rgba(0,255,0,0.5) ;
+    position: absolute;
+    left: 50px;
+    z-index: 1;
+}
+.test4 {
+    width: 500px;
+    background-color: rgba(255,0,0,0.5);
+    position: sticky;
+    left: 50px;
+}
+section{
+    min-height: 400px;
+    border: 1px solid black;
+}

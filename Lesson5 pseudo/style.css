@@ -1,0 +1,73 @@
+/* For comments */
+.red{
+    background-image: url("websiteplanet-dummy-540X400-2.png");
+    height: 100px;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    background-position: center;
+    background-attachment:scroll;
+}
+.green{
+    color: lime;
+    background: lightpink;
+    
+}
+.blue{
+    color: blue;
+    height: 400px;
+    background-image: url(websiteplanet-dummy-540X400.png) ;
+
+}
+/*div::first-line{
+    color: chocolate;
+}
+.test::first-letter{
+    background: red;
+}*/
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight:lighter;
+    font-variant: small-caps;
+    width:80%;
+    text-align: justify;
+    border: 1px solid;
+    text-transform: capitalize;
+    text-shadow: blue 3px 3px 5px;
+    color: white;
+}
+
+p{
+    font: 2em Arial;
+   
+}
+::selection{
+    background-color: yellow;
+}
+.test2::before{
+    content: "new";
+}
+a:link{
+   color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: purple;
+}
+h1:hover{
+    color: yellow;
+}
+input:focus{
+    background-color: green;
+}
+.input{
+    margin: 30px;
+}
+p:first-child{
+    background-color: cyan;
+}

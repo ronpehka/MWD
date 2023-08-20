@@ -1,0 +1,17 @@
+span{
+    border: 1px solid red ;
+    display: block;
+}
+div{
+    border: 1px dashed blue;
+    display: inline;
+}
+li{
+    display: inline-block;
+    width:100px;
+    height:100px;
+    line-height: 30px;
+}
+li a {
+    text-decoration: none;
+}
