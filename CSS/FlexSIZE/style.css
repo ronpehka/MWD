@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    display: flex;
+    height: 300px;
+    background: red;
+    align-items: stretch;
+    /*flex-wrap: wrap-reverse;
+    flex-flow: row wrap;
+    justify-content: space-around;*/
+
+}
+/*
+.two{
+    order:3;
+}
+.one{
+    order: 4;
+}*/
+.one{
+    flex-grow: 2;
+}
+.two, .three, .four{
+    flex-grow: 1;
+}
+.five{
+    flex-shrink: 0;
+}
+.container > div{
+    overflow: hidden;
+    border: 1px solid sandybrown;
+    background-color: aliceblue;
+    width: 100px;
+   
+}
