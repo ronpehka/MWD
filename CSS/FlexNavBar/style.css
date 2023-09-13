@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container > div {
+    flex: 1;
+    border: 1px solid navy;
+}
+*{
+   box-sizing: border-box;
+}
+ul li a{
+    padding: 10px 15px;
+    display: block;
+    color: aliceblue;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: navy;
+    
+}
+li a:hover{
+    background: rgb(69, 69, 116);
+}
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: navy;
+    margin-top: 20px;
+}
+@media(max-width: 760px){
+    ul{
+        flex-direction: column;
+    }
+}
