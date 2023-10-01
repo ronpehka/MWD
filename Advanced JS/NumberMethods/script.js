@@ -1,0 +1,10 @@
+let val1 = 100.54342;
+let val2 = '100';
+if(Number('100') === 100){console.log(true)};
+console.log(parseInt('100D10000') === 100);
+console.log(val1.toFixed(4));
+console.log(Number('100D'));
+console.log(Number('100'));
+let d = new Date();
+console.log(d);
+console.log(Number(d));
