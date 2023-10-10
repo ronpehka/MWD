@@ -1,0 +1,4 @@
+.output img, .gal{
+    max-width: 200px;
+    display: block;
+}
