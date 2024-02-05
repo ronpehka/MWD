@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            My Website
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">My header</header>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+        <article class="main">
+            <div class="col"><h2>Column 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+            <div class="col"><h2>Contact Form</h2>
+            <form class="myForm" action="mailto:email@email.com" method="post"
+            enctype="text/plain">
+            <label for="fullName">Full Name</label>
+            <input type="text" name="fullName" id="fullName" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" >
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" maxlength="500"></textarea>
+            <input type="submit" value="Send Message">
+
+        </form>
+            </div>
+            <div class="col"><h2>Column 3</h2>
+            <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean
+                vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante,
+                dapibus in, viverra quis, feugiat a, tellus.</p>
+            </div>
+            </article>
+        <footer class="footer">&copy; Copyright 2023</footer>
+    </body>
+</html>

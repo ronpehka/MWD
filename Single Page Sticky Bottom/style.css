@@ -1,0 +1,163 @@
+/*
+#003049 - Prussian Blue
+#669BBC - Air superiority Blue
+#FDF0D5 - Papaya whip
+#C1121F - Fire Brick
+#780000 - Barn red
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body, html{
+    height:100vh;
+    font-family: 'Montserrat', sans-serif;
+
+}
+a {
+    text-decoration: none;
+    color:#780000 ;
+}
+a:hover{
+    text-decoration: none;
+    color: #C1121F;
+}
+article h2{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+#navbar {
+ position: fixed;
+ top: 0px;
+ left:0px;
+ background-color: #003049;
+ display: block;
+ width: 100%;
+ z-index: 100;
+ height: 60px;
+}
+#navbar nav {
+    display: flex;
+
+}
+#navbar nav a {
+    flex: 0 0 25vw;
+    text-align: center;
+    font-size: 2em;
+    background-color: #FDF0D5;
+}
+#navbar a:hover{
+    background-color: #003049;
+    color: #C1121F;
+}
+#wrapper{
+    margin-top: 60px;
+}
+#wrapper header{
+    min-height: 500px;
+    padding:4px;
+    background-color:#003049;
+    background:url(space-needle-8027331_1280.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+#wrapper header > div{
+    border: 1px solid #C1121F;
+    border-radius:15px;
+    background-color: #FDF0D5;
+    color: #C1121F;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 25px;
+}
+#wrapper header > div h2{
+    font-size: 3em;
+}
+
+#wrapper > section{
+    min-height: 100vh;
+    padding: 20px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#wrapper > section article{
+    background-color: rgb(102, 155, 188);
+    background-color: rgba(102, 155, 188, 0.8);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    min-height: 500px;
+}
+
+#home{
+    background-image:url(pexels-pixabay-268533.jpg);
+}
+#about{
+    background-image:url(tree-736885_1280.jpg);
+}
+#products{
+    background-image:url(mountain-landscape-2031539_1280.jpg);
+
+}
+#products ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#products ul li{
+    margin: 10px;
+  text-align: center;
+  background-color: white;
+}
+#products ul li{
+    max-width: 25vh;
+}
+#contact{
+    background-image:url(fantasy-2925250_1280.jpg);
+}
+#contact form{
+    margin: 0 auto; 
+    max-width: 50vh;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #003049;
+}
+#contact label{
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: white;
+}
+#contact .row{
+    margin: 20px auto;
+    padding: 0 50px;
+}
+#contact input{
+    width: 100%;
+    font-size: 1.2em;
+    height: 55px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#contact button{
+    padding: 15px;
+    width: 100%;
+    font-size: 1.4em;
+    background-color: #669BBC;
+}
+#footer{
+    background-color: #003049;
+    color: #FDF0D5;
+    padding:20px;
+    text-align: center;
+    min-height: 200px;
+}

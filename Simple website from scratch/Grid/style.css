@@ -1,0 +1,115 @@
+/* CSS HEX 
+--prussian-blue: #003049ff;
+--fire-engine-red: #d62828ff;
+--orange-wheel: #f77f00ff;
+--xanthous: #fcbf49ff;
+--vanilla: #eae2b7ff;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.myForm{
+    display: grid;
+    background-color: #eae2b7ff;
+    grid-template-areas: 'labels fields';
+    padding: 1em;
+    grid-gap: 1em;
+}
+.myForm > label {
+    grid-column: labels;
+    grid-row: auto;
+}
+.myForm > input, .myForm > textarea{
+    grid-column: fields;
+    grid-row: auto;
+}
+.header {
+    background-color: #003049ff;
+    color: #eae2b7ff;
+    text-align: center;
+    height: 20%;
+    font-size: 3em;
+    line-height: 50px;
+    padding-top: 30px;
+}
+.nav {
+    background-color: #eae2b7ff;
+    display: flex;
+    justify-content: center;
+}
+.nav a{
+    flex: 1;
+    display: block;
+    text-decoration: none;
+    padding: 12px 15px;
+    text-align: center;
+    color: #003049ff;
+    border: 1px solid #fcbf49ff;
+}
+.nav a:hover{
+    color: #eae2b7ff;
+    background-color: #003049ff;
+    cursor: grab;
+}
+.main{
+    border: 1px solid #fcbf49ff;
+    padding: 10px;
+    border-radius: 5px;
+    min-height: 50%;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap:10px;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas: "one three two";
+}
+
+
+.col {
+    border: 1px solid red;
+    padding: 5px;
+}
+.col:nth-child(1){
+    background-color: #d62828ff;
+    grid-area: one;
+}
+.col:nth-child(2){
+    background-color: white;
+    grid-area: two;
+}
+.col:nth-child(3){
+    background-color: #fcbf49ff;
+    grid-area: three;
+}
+.footer{
+    background-color: #003049ff;
+    color: #eae2b7ff;
+    text-align: center;
+    height: 10%;
+    font-size: 1em;
+    padding-top: 20px;
+    
+}
+@media (max-width:600px) {
+    .nav{
+       flex-direction: column;
+    }
+    .main {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+         "one one"
+         "two three";
+        }
+
+        .myForm{
+            grid-template-areas: 'labels' 'fields';
+    
+        }
+  
+   
+    
+}
